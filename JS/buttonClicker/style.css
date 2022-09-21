@@ -1,0 +1,155 @@
+/* general styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+}
+/* nav styles */
+.nav-container{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    width: 75%;
+    background: rgb(204,204,204);
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 30px;
+}
+.nav-title{
+    margin-right: 100px;
+    font-size: 3em;
+}
+input[type=text]{
+    width:50%;
+    margin-right: 150px;
+    border: 2px solid black;
+}
+#login-btn{
+    font-size: 1em;
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    padding: 5px 2px;
+    width: 8%;
+    box-shadow: 3px 3px black;
+}
+#login-btn:hover{
+    background-color: darkgray;
+}
+#login-btn:active{
+    background-color: darkblue;
+}
+::placeholder{
+    font-size: 2em;
+    padding: 5px;
+}
+/* end of nav styles */
+/* flexbox container and children sytles */
+.main-container{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.col-1{
+    width:60%;
+    height: 100vh;
+}
+.col-2{
+    width: 40%;
+    height: 100vh;
+}
+/* end */
+/* ninja definition (column 1) styles */
+.ninja-container{
+    height: 250px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    display: flex;
+    
+}
+.word{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.word > p{
+    font-size: 20px;
+}
+.ninja-heading{
+    font-size: 3em;
+    text-align: center;
+}
+.noun{
+    text-align: center;
+    font-style: italic;
+}
+span{
+    font-style: italic;
+}
+.definition{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+.likes-button{
+    background-color: rgb(251,217,102);
+    border: 2px solid black;
+    color: black;
+    padding: 5px 2px;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+}
+.likes-button:hover{
+    background-color: lightgrey;
+}
+.likes-button:active{
+    background-color: yellow;
+}
+/* end */
+/* add definition styles (column 2) */
+.add-def-container{
+    height: 160px;
+    margin: 20px 0px 0px 20px;
+    width: 95%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+}
+.add-def-elements{
+    margin: 20px;
+}
+p > span{
+    font-weight: bolder;
+    font-style: normal;
+}
+.add-def-btn{
+    background-color: rgb(147,196,125);
+    border: 2px solid black;
+    color: black;
+    padding: 5px 2px;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+.add-def-btn:hover{
+    background-color: lightgray;
+}
+

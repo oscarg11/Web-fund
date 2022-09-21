@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Likes Part 2</title>
+</head>
+<body>
+    <!-- container set to 100% to keep all sizes relative -->
+    <div class="container">
+        <div class="nav-header">
+            <h1>Network</h1>
+        </div>
+    </div>
+    <h2>Your Feed</h2>
+    <!-- parent container for a two column flex box display -->
+    <div class="main-container">
+        <!-- column 1 -->
+        <div class="col1">
+            <div class="user-card">
+                <img src="images/user-circle.png" alt="user-circle">
+                <a href="#">Add and avatar</a>
+                <p id="main-user-name">James Doe</p>
+            </div>
+
+        </div>
+        <!-- column 2 -->
+        <div class="col2">
+            <!-- like box 1 -->
+            <div class="likes-container">
+                <div class="box-container">
+                    <div class="box-heading">
+                        <h1>Niel M</h1>
+                        <p id="likes1"> 0 like(s)</p>
+                        <!-- likes button -->
+                        <button onclick="add1(0)" class="like-btn">Like</button>
+                    </div>
+                    <div class="box-body">
+                        <p>I just set up this new discord bot, let me <br> 
+                            know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+
+                <!-- like box 2 -->
+                <div class="box-container">
+                    <div class="box-heading">
+                        <h1>Jane D</h1>
+                        <p id="likes2"> 0 like(s)</p>
+                        <!-- likes button with corresponding array indices-->
+                        <button onclick="add1(1)" class="like-btn">Like</button>
+                    </div>
+                    <div class="box-body">
+                        <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                    </div>
+                </div>
+
+                <!-- like box 3 -->
+                <div class="box-container">
+                    <div class="box-heading">
+                        <h1>Alex O</h1>
+                        <p id="likes3"> 0 like(s)</p>
+                        <!-- likes button -->
+                        <button onclick="add1(2)" class="like-btn">Like</button>
+                    </div>
+                    <div class="box-body">
+                        <p>I can't stop listening to the <a href="#">new album</a>.<br>
+                            else is liking it?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

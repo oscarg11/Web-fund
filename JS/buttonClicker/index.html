@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <nav>
+                <h1 class="nav-title">Dojonary</h1>
+                <input type="text" id="search" name="search" placeholder="Search">
+                <button type="button" id="login-btn" onclick="logOut(this)">Login</button>
+            </nav>
+        </div>
+        <!-- main content container -->
+        <div class="main-container">
+            <!-- column 1: ninja defintions boxes -->
+            <div class="col-1">
+                <div class="ninja-container">
+                    <div class="word">
+                        <h2 class="ninja-heading">
+                            ninja
+                        </h2>
+                        <p class="noun">noun</p>
+                        <p>Plural: <span>ninjas</span></p>
+                        <button type="button" class="likes-button" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+
+                    <div class="definition">
+                        <p>A practice skilled in the <br>
+                            <a href="https://www.merriam-webster.com/dictionary/Japanese" target="_blank">Japanese</a> art of
+                            <a href="https://www.merriam-webster.com/dictionary/ninjutsu" target="_blank">ninjutsu</a></p>
+                    </div>
+                </div>
+                <!-- second  ninja definition -->
+                <div class="ninja-container">
+                    <div class="word">
+                        <h2 class="ninja-heading">
+                            ninja
+                        </h2>
+                        <p class="noun">noun</p>
+                        <p>Plural: <span>ninjas</span></p>
+                        <button type="button" class="likes-button" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A <a href="https://www.merriam-webster.com/dictionary/programmer" target="_blank">programmer</a> who breaks<br>
+                        down problems with <a href="https://www.merriam-webster.com/dictionary/Zen" target="_blank">zen</a>-like <br>
+                    focus</p>
+                    </div>
+                </div>
+            </div>
+            <!-- column 2: Add defition box -->
+            <div class="col-2">
+                <div class="add-def-container">
+                    <div class="add-def-elements">
+                        <p>Dojonary is <br>
+                            defined by <span>YOU</span></p>
+                        <button type="button" class="add-def-btn" onclick="hide(this)">Add Defintion</button>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

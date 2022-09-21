@@ -1,0 +1,102 @@
+/* general styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:100%;
+}
+/* nav bar and header styles */
+.nav-header{
+    margin: 0 auto;
+    display: flex;
+    width:75%;
+    border: 2px dashed black;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+/* end */
+/* flex box styles */
+.main-container{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.col1{
+    width:30%;
+    height: 100vh;
+}
+.col2{
+    width: 70%;
+    height: 100vh;
+}
+/* end */
+/* user-card styles (column one)*/
+.user-card{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid black;
+    padding: 0px;
+    font-size: 24px;
+}
+#main-user-name{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+    background-color: lightgray;
+    height: 130px;
+    padding: 5px;
+}
+/* end */
+/* likes boxes (colum 2) */
+.box-container{
+    border: 4px solid black;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;;
+}
+.box-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.box-body{
+    text-align: left;
+    padding: 20px;
+    margin: 0px 10px 0px 60px;
+
+}
+/* button styles */
+.like-btn{
+    background-color: rgb(251,217,102);
+    border: 2px solid black;
+    color: black;
+    padding: 5px 2px;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    width: 80px;
+}
+.like-btn:hover{
+    background-color: lightgrey;
+}
+.like-btn:active{
+    background-color: yellow;
+}
+P{
+    font-size: 24px;
+}

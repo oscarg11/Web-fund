@@ -1,0 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-card{
+    width: inherit;
+    border: 2px solid #999;
+    border-radius: 5px;
+}
+.header{
+    background-color: aqua;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-body{
+    padding: 20px;
+}
+.profile-icon{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.small-icon{
+    height: 20px;
+}

@@ -1,0 +1,183 @@
+/* general styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+}
+/* parent container for a two column layout */
+.row{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.child1{
+    width: 60%;
+    height: 100vh;
+}
+.child2{
+    width: 40%;
+    height: 80vh;
+}
+.education-header,.request-header, .connections-header{
+    background-color: rgb(51,51,51);
+    height: 50px;
+}
+/*nav bar styles*/
+nav{
+    border: 2px solid black;
+    width: 100%;
+    background: black;
+    padding: 20px;
+    margin: 0px 250px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    
+}
+h1.nav-title{
+    margin-left: 300px;
+    color: white;
+    font-size: 2em;
+}
+li{
+    list-style: none;
+}
+.nav-links, a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+.btn-container{
+    display: flex;
+    margin-right: 250px;
+}
+.btn{
+    background: blue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 5px black;
+    width: 90px;
+    height: 25px;
+}
+/*end of nav styles*/
+
+/* user card styles */
+.user-card{
+    width: 60%;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-left: 300px;
+
+}
+.card-header{
+    background-color: rgb(66,162,185);
+    height: 90px;
+    margin-bottom: 60px;
+}
+.card-body{
+    padding: 0px 20px;
+}
+.card-body h1, h2, img, p{
+    margin-top: 10px;
+    font-weight: normal;
+    vertical-align:baseline;
+}
+
+.user-pic{
+    border-radius: 50%;
+    background-color: lightgray;
+    height: 130px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.icon-s{
+    height: 20px;
+}
+#edit-profile{
+    color: black;
+    text-decoration: underline;
+}
+/*end of user card styles*/
+
+/*request card styles*/
+.request-card{
+    width: 40%;
+    height: 180px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.request-num{
+    background: lightgray;
+    border-radius: 50%;
+    padding: 5px;
+    height: 15px;
+    color: black;
+}
+.request-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.con-imgs{
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+.yesNo-circle{
+    height:30px;
+    vertical-align: middle;
+}
+/* end of request styles */
+
+/*education styles*/
+.education-card{
+    width: 60%;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.education-body{
+    padding: 10px;
+}
+.subBox-headers{
+    padding: 10px;
+    color: white;
+}
+/* end of education styles */
+
+/* connection styles */
+.connections-card{
+    margin-top: 20px;
+    width: 40%;
+    border: 2px solid #999;
+    border-radius: 5px;
+    height: 320px;
+}
+.connection-body{
+    padding: 10px;
+}
+#view-more{
+    border-top: 2px solid #999;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#view-more > a{
+    color: black;
+    text-decoration: underline;
+}   
